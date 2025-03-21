@@ -1,0 +1,19 @@
+#button-container {
+	height: 20rem;
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #594502;
+
+	transition: 0.2s;
+}
+
+#button-container.activated {
+	background-color: #efe4a9;
+}
+
+#button-container.broken {
+	background-color: black;
+}
